@@ -1,7 +1,7 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
 
-const App = () => {
+const App = (prop) => {
   
   let {slides}=prop;
   let [{boolValN,boolValP,boolValR},upDateBool]=useState({boolValN:false,boolValP:true,boolValR:true})
