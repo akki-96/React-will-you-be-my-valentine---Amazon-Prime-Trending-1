@@ -28,6 +28,10 @@ const App = (prop) => {
     {
       upDateBool({boolValN:false,boolValP:true,boolValR:true})
     }
+     else 
+    {
+      upDateBool({boolValN:false,boolValP:false,boolValR:false})
+    }
     updateIndex(index)
     upDateInfo({title:slides[index].title,text:slides[index].text})
   }
